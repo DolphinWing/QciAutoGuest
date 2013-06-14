@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="pref_engineer_mode">false</bool>
+
+    <string name="portal_server">10.240.252.36</string>
+
+    <string-array name="portal_ssid_list">
+        <item>Guest</item>
+        <!-- <item>linksys</item> -->
+    </string-array>
+
+</resources>

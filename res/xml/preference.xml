@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name" >
+
+    <PreferenceCategory android:title="@string/build_information" >
+        <Preference
+            android:key="version_name"
+            android:title="@string/version_name" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_user_info"
+        android:title="@string/user_information" >
+        <EditTextPreference
+            android:key="user_info_userid"
+            android:title="@string/user_info_username" />
+        <EditTextPreference
+            android:key="user_info_passwd"
+            android:title="@string/user_info_password" />
+
+        <Preference
+            android:key="expired_date"
+            android:title="@string/expired_date" />
+
+        <!-- https://github.com/bostonandroid/DatePreference 
+        <org.bostonandroid.datepreference.DatePreference
+            android:defaultValue="2013.05.01"
+            android:key="expired_date2"
+            android:title="@string/expired_date" /> -->
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_login"
+            android:summaryOff="@string/action_auto_login_summary_off"
+            android:summaryOn="@string/action_auto_login_summary_on"
+            android:title="@string/action_auto_login" />
+
+        <Preference
+            android:key="connect_now"
+            android:title="@string/connect_now"
+            android:summary="@string/connect_now_summary_enable" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

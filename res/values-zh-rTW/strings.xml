@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AutoGuestActivity!</string>
+    <string name="app_name">Quanta自動登入Guest Wi-Fi</string>
+    <string name="preference">設置</string>
+    <string name="build_information">版本資訊</string>
+    <string name="version_name">版本名稱</string>
+    <string name="version_code">版本代碼</string>
+    <string name="user_information">使用者資訊</string>
+    <string name="user_info_username">使用者名稱</string>
+    <string name="user_info_password">密碼</string>
+    <string name="connect_now">立即連線!</string>
+    <string name="waiting_connection">進行登入程序中</string>
+    <string name="expired_date">可使用到</string>
+    <string name="action_set">設定</string>
+    <string name="login_success">成功登入!</string>
+    <string name="please_set_preference">請設定登入資訊!</string>
+    <string name="expired_title">帳號已過期</string>
+    <string name="expired_message">您應該申請新的帳號密碼</string>
+    <string name="action_enter_new">已有新帳號</string>
+    <string name="action_close">稍後申請</string>
+    <string name="action_auto_login">自動登入</string>
+    <string name="action_auto_login_summary_on">自動登入已啟用</string>
+    <string name="action_auto_login_summary_off">自動登入已停用</string>
+    <string name="no_response_shutdown">逾時&#8230; 網頁無回應</string>
+    <string name="connect_now_summary_enable">已經連線到 Guest</string>
+    <string name="connect_now_summary_disable">尚未連線到 Guest</string>
+
+</resources>

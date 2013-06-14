@@ -1,0 +1,62 @@
+Quanta Auto Guest by DolphinWing
+https://play.google.com/store/apps/details?id=com.quanta.pobu.apps.AutoGuest
+
+Auto login to Quanta Guest Wi-Fi with your own user name and password.
+
+Thanks my college Amanda Hsu gifted me an icon!!
+
+For Quanta Computer Inc. Colleges use in QRDC ONLY.
+
+--
+0.2.0 (2013/05/19)
+● Check Connect NOW summary
+
+--
+0.1.9 (2013/05/19)
+● Add Wi-Fi connection status check
+
+--
+0.1.8 (2013/05/17)
+● Fix DatePickerDialog can not work properly before Honeycomb
+
+--
+0.1.7 (2013/05/16)
+● Fix some invalid calls to new APIs on some old devices
+
+--
+0.1.6 (2013/04/30)
+● Fix "Unable to start activity" when password expired.
+
+E/AndroidRuntime(18142): Caused by: java.lang.NullPointerException
+E/AndroidRuntime(18142): 	at com.quanta.pobu.apps.AutoGuest.AutoGuestActivity.onCreate(Unknown Source)
+
+Use try-catch, because I don't know why it cannot shows the error line number. 
+
+--
+0.1.5 (2013/04/29)
+● Try to fix "Unable to start activity" 
+
+--
+0.1.4 (2013/04/21)
+● Add timeout handler close login activity in some no response conditions.
+
+0.1.3 (2013/03/18)
+● Fix that cannot popup login window in some devices.
+● Add a option to enable/disable the auto popup window.
+
+0.1.2 (2013/02/08)
+● Change the login layout
+● Clear the notification by Wi-Fi Watchdog
+
+0.1.1 (2013/01/29)
+● reformatted the Date string
+
+0.1.0 (2013/01/29)
+● Add a new Expired Date field that can notify you when the password is expired.
+● Add Traditional Chinese translations.
+● Some codes tweak to increase performance.
+● Remove Touch requirement
+
+0.0.7 (2012/12/26)
+● use SDK 14 to build
+● add android:hardwareAccelerated="true"

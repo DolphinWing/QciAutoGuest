@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quanta.pobu.apps.AutoGuest"
+    android:versionCode="21"
+    android:versionName="0.2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/qwifi"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AutoGuestActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="nosensor"
+            android:theme="@style/DialogTheme" >
+        </activity>
+
+        <receiver
+            android:name=".AutoWiFiReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <!-- [19]++ no need of supplicant
+                <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
+                <action android:name="android.net.wifi.supplicant.STATE_CHANGE" />-->
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".AutoWiFiPreference"
+            android:label="@string/app_name"
+            android:screenOrientation="behind" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

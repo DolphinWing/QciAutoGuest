@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AutoGuestActivity!</string>
+    <string name="app_name">Quanta Guest Auto login</string>
+    <string name="preference">Preference</string>
+    <string name="build_information">Build Information</string>
+    <string name="version_name">Version Name</string>
+    <string name="version_code">Version Code</string>
+    <string name="user_information">User Information</string>
+    <string name="user_info_username">User Name</string>
+    <string name="user_info_password">Password</string>
+    <string name="connect_now">Connect NOW!</string>
+    <string name="waiting_connection">waiting login process</string>
+    <string name="expired_date">Expired at</string>
+    <string name="action_set">Set</string>
+    <string name="login_success">Login successfully!</string>
+    <string name="please_set_preference">Please set the preference!</string>
+    <string name="expired_title">Account expired</string>
+    <string name="expired_message">You should apply a new account/password.</string>
+    <string name="action_enter_new">I have a new one.</string>
+    <string name="action_close">I will do it later.</string>
+    <string name="action_auto_login">Auto login</string>
+    <string name="action_auto_login_summary_on">Auto login is enabled</string>
+    <string name="action_auto_login_summary_off">Auto login is disabled</string>
+    <string name="no_response_shutdown">Timeout&#8230; Page no response</string>
+    <string name="connect_now_summary_enable">You have connected to Guest</string>
+    <string name="connect_now_summary_disable">You have not connected to Guest</string>
+
+</resources>
