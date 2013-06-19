@@ -14,24 +14,6 @@
     <list default="true" id="81a0d5d7-239b-4119-b112-89bbd27ff2d5" name="Default" comment="" />
     <ignored path="AutoGuest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/gen/com/quanta/pobu/apps/AutoGuest/R.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368718922968" ignored="false" />
-    <file path="/a.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368889231849" ignored="false" />
-    <file path="/sample.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368882516507" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/quanta/pobu/apps/AutoGuest/Manifest.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368877460979" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/quanta/pobu/apps/AutoGuest/BuildConfig.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368929183396" ignored="false" />
-    <file path="/AutoWiFiPreference.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368929015772" ignored="false" />
-    <file path="/AutoWiFiReceiver.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368889925738" ignored="false" />
-    <file path="/Version.txt" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368928302073" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368877456100" ignored="false" />
-    <file path="/a.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368882494778" ignored="false" />
-    <file path="/a.html" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368882496399" ignored="false" />
-    <file path="/a.groovy" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368882497543" ignored="false" />
-    <file path="/fragment.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368889098169" ignored="false" />
-    <file path="/configs.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368889795268" ignored="false" />
-    <file path="/strings.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368928490359" ignored="false" />
-    <file path="/preference.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368928684501" ignored="false" />
-    <file path="$PROJECT_DIR$/../dTaiwanTVGuide/AndroidManifest.xml" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1368970279190" ignored="false" />
-    <file path="/AutoGuestActivity.java" changelist="81a0d5d7-239b-4119-b112-89bbd27ff2d5" time="1369202568115" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,26 +77,52 @@
       <file leaf-file-name="Version.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/Version.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+            <state line="11" column="35" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoGuestActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdPreference.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AdPreference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="46" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ad_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/ad_layout.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="4" selection-start="48" selection-end="129" vertical-scroll-proportion="-1.2258065" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoGuestActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoGuestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="5" selection-start="8377" selection-end="8377" vertical-scroll-proportion="5.338569">
+            <state line="106" column="48" selection-start="4575" selection-end="4575" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="4921">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="44" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="52" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="2.012959" vertical-offset="56" max-vertical-offset="1216">
+              <folding>
+                <element signature="e#904#922#0" expanded="true" />
+                <element signature="e#2116#2203#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,14 +144,16 @@
       <list>
         <option value="$PROJECT_DIR$/res/values/configs.xml" />
         <option value="$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiReceiver.java" />
-        <option value="$PROJECT_DIR$/assets/Version.txt" />
         <option value="$PROJECT_DIR$/res/values-zh-rTW/strings.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
-        <option value="$PROJECT_DIR$/res/xml/preference.xml" />
         <option value="$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiPreference.java" />
         <option value="$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoGuestActivity.java" />
+        <option value="$PROJECT_DIR$/res/xml/preference.xml" />
+        <option value="$PROJECT_DIR$/res/layout/ad_layout.xml" />
+        <option value="$PROJECT_DIR$/assets/Version.txt" />
+        <option value="$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AdPreference.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
@@ -151,8 +161,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="width" value="1394" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,6 +217,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="AutoGuest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -274,15 +294,41 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoGuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoGuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoGuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoGuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -291,16 +337,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="D:\Dropbox\Public\android\QciAutoGuest.apk" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="ExportedApkPath" value="D:\Dropbox\Public\android\QciAutoGuest.apk" />
     <property name="ExportedModule" value="AutoGuest" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keys/dolphin-release-key.keystore" />
+    <property name="last_opened_file_path" value="C:/Program Files/Android/android-sdks/extras/google/admob_ads_sdk/GoogleAdMobAdsSdk-6.4.1.jar!/" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Froyo-480x800" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="AndroidTargetDevices" value="emulator-5554" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -311,11 +358,16 @@
     <property name="AndroidProguardConfigPath" value="D:\Dropbox\work\android\AutoGuest\proguard.cfg" />
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="BX902UXVC2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\work\android\AutoGuest\res\layout" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.AutoGuest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -507,29 +559,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.6710875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32625994" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19808307" sideWeight="0.67313915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24585219" sideWeight="0.67374" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="26" y="326" width="1326" height="248" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.6710875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -595,113 +649,140 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/Version.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiPreference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="225" column="9" selection-start="9584" selection-end="9584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="4" column="33" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding>
+            <element signature="e#904#922#0" expanded="true" />
+            <element signature="e#2116#2203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiPreference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="9" selection-start="9584" selection-end="9584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiPreference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="63" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0">
+        <state line="37" column="63" selection-start="1555" selection-end="1555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/configs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.10526316" />
+        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.10526316" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-24.516129" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="-24.516129" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="657" selection-end="657" vertical-scroll-proportion="0.50442475" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="657" selection-end="657" vertical-scroll-proportion="0.50442475" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiPreference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="21" selection-start="14129" selection-end="14129" vertical-scroll-proportion="6.2739964">
+        <state line="343" column="21" selection-start="14129" selection-end="14129" vertical-scroll-proportion="6.2739964" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoWiFiReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="11" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/preference.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="19" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.6757679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="44" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+        <state line="61" column="11" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+        <state line="22" column="45" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-zh-rTW/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="771" selection-end="792" vertical-scroll-proportion="0.0">
+        <state line="17" column="39" selection-start="771" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/ad_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="48" selection-end="129" vertical-scroll-proportion="-1.2258065" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/preference.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.36842105" vertical-offset="285" max-vertical-offset="1007">
+          <folding>
+            <element signature="e#148#166#0" expanded="true" />
+            <element signature="e#207#234#0" expanded="true" />
+            <element signature="e#321#343#0" expanded="true" />
+            <element signature="e#466#485#0" expanded="true" />
+            <element signature="e#572#598#0" expanded="true" />
+            <element signature="e#697#725#0" expanded="true" />
+            <element signature="e#825#853#0" expanded="true" />
+            <element signature="e#942#964#0" expanded="true" />
+            <element signature="e#1366#1405#0" expanded="true" />
+            <element signature="e#1436#1474#0" expanded="true" />
+            <element signature="e#1501#1528#0" expanded="true" />
+            <element signature="e#1616#1637#0" expanded="true" />
+            <element signature="e#1666#1702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AdPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="46" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/quanta/pobu/apps/AutoGuest/AutoGuestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="5" selection-start="8377" selection-end="8377" vertical-scroll-proportion="5.338569">
+        <state line="106" column="48" selection-start="4575" selection-end="4575" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="4921">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="2.012959" vertical-offset="56" max-vertical-offset="1216">
+          <folding>
+            <element signature="e#904#922#0" expanded="true" />
+            <element signature="e#2116#2203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
