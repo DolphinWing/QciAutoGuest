@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android Admob advert in PreferenceActivity
+    http://stackoverflow.com/a/5850299
+
+    Not enough space to display Admob ad error
+    http://stackoverflow.com/a/9385752
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+</LinearLayout>

@@ -8,6 +8,10 @@ Thanks my college Amanda Hsu gifted me an icon!!
 For Quanta Computer Inc. Colleges use in QRDC ONLY.
 
 --
+0.3.0 (2013/06/18)
+● Add Google AdMob Ads in AutoGuestPreference activity.
+
+--
 0.2.0 (2013/05/19)
 ● Check Connect NOW summary
 
