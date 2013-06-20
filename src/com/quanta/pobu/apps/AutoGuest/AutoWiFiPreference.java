@@ -179,7 +179,7 @@ public class AutoWiFiPreference extends PreferenceActivity
         ConnectivityManager connMgr =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo wifi = connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        if (wifi.isAvailable() && AutoWiFiReceiver.isConnected(this, wifi)) {
+        if (wifi.isAvailable() && AutoWiFiReceiver.isConnected(this, wifi) || DEBUG) {
             mPrefConnectNow.setEnabled(true);
             mPrefConnectNow.setSummary(R.string.connect_now_summary_enable);
         } else {

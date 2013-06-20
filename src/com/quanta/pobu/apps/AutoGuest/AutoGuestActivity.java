@@ -21,7 +21,12 @@ import android.webkit.WebSettings;
 import android.webkit.WebSettings.RenderPriority;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.google.ads.AdRequest;
+import com.google.ads.AdSize;
+import com.google.ads.AdView;
 
 import java.util.Calendar;
 
@@ -38,6 +43,8 @@ public class AutoGuestActivity extends Activity {
     // frameworks/base/wifi/java/android/net/wifi/WifiWatchdogStateMachine.java
     private static final String WALLED_GARDEN_NOTIFICATION_ID = "WifiWatchdog.walledgarden";
 
+    private AdView adView;//[23]++ add AdMob Ads to screen
+
     /**
      * Called when the activity is first created.
      */
@@ -46,6 +53,19 @@ public class AutoGuestActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        //[23]++ add AdMob Ads to screen
+        adView = new AdView(this, AdSize.BANNER, AdPreference.MY_AD_UNIT_ID);
+        if (adView != null) {
+            LinearLayout layout = (LinearLayout) findViewById(R.id.adLayout);
+            if (layout != null) {
+                layout.addView(adView);
+            }
+
+            AdRequest request = new AdRequest();
+            request.addTestDevice(AdRequest.TEST_EMULATOR);
+            adView.loadAd(request);
+        }
+
         try {//[16]++ try to catch the NullPointerException
             final Context context = getBaseContext();
             //[0.1.0] check expired date first
@@ -83,6 +103,13 @@ public class AutoGuestActivity extends Activity {
             showWarningDialog();
             Log.e(TAG, "treat as expired! " + e.getMessage());
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (adView != null)//[23]++ add AdMob Ads to screen
+            adView.destroy();
+        super.onDestroy();
     }
 
     private void showWarningDialog() {
@@ -265,7 +292,8 @@ public class AutoGuestActivity extends Activity {
                     e.printStackTrace();
                 }
 
-                AutoGuestActivity.this.finish();
+                if (!getResources().getBoolean(R.bool.pref_engineer_mode))//[23]++
+                    AutoGuestActivity.this.finish();
             }
             super.onPageFinished(view, url);
         }

@@ -37,6 +37,8 @@ public class AdPreference extends Preference {
         super(context);
     }
 
+    public final static String MY_AD_UNIT_ID = "MY_AD_UNIT_ID";
+
     @Override
     protected View onCreateView(ViewGroup parent) {
         // this will create the linear layout defined in ads_layout.xml
@@ -46,7 +48,7 @@ public class AdPreference extends Preference {
         Activity activity = (Activity) getContext();
 
         // Create the adView
-        AdView adView = new AdView(activity, AdSize.BANNER, "YOUR-ADMOB-ID");
+        AdView adView = new AdView(activity, AdSize.BANNER, MY_AD_UNIT_ID);
 
         ((LinearLayout) view).addView(adView);
 
