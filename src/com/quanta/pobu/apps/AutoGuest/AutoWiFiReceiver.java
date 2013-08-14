@@ -26,7 +26,8 @@ public class AutoWiFiReceiver extends BroadcastReceiver {
             //String bssid = intent.getStringExtra(WifiManager.EXTRA_BSSID);
             //Log.d(TAG, "BSSID: " + bssid);
 
-            if (isConnected(context, netInfo)) {
+            if (AutoWiFiPreference.isAutoLoginEnabled(context)//[24]++
+                    && isConnected(context, netInfo)) {
                 Log.i(TAG, "start login process");
                 Intent intent1 = new Intent();
                 intent1.setClass(context, AutoGuestActivity.class);
@@ -45,6 +46,9 @@ public class AutoWiFiReceiver extends BroadcastReceiver {
         //            intent.getBooleanExtra(WifiManager.EXTRA_SUPPLICANT_CONNECTED, false);
         //    Log.d(TAG, String.format("SUPPLICANT connected = %s", connected));
         //}
+
+        if (!AutoWiFiPreference.isAutoLoginEnabled(context))//[24]++ set disable if no auto
+            AutoWiFiPreference.setPackageEnabled(context, false);
     }
 
     public static boolean isConnected(Context context, NetworkInfo netInfo) {

@@ -11,5 +11,6 @@
     android:id="@+id/adLayout"
     android:layout_width="320dp"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:minHeight="50dp">
 </LinearLayout>

@@ -30,7 +30,7 @@ public class AutoWiFiPreference extends PreferenceActivity
         implements Preference.OnPreferenceChangeListener,
         DatePickerDialog.OnDateSetListener {
 
-    private boolean DEBUG = false;
+    private static boolean DEBUG = false;
 
     public static final String ID_USER_INFO_USERID = "user_info_userid";
     public static final String ID_USER_INFO_PASSWD = "user_info_passwd";
@@ -343,7 +343,7 @@ public class AutoWiFiPreference extends PreferenceActivity
      * @param context
      * @param enabled
      */
-    private void setPackageEnabled(Context context, boolean enabled) {
+    public static void setPackageEnabled(Context context, boolean enabled) {
         //Context context = getBaseContext();
         final ComponentName activity = new ComponentName(context, AutoWiFiReceiver.class);
         final PackageManager pm = context.getPackageManager();
