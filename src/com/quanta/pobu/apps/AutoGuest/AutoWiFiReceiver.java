@@ -55,7 +55,7 @@ public class AutoWiFiReceiver extends BroadcastReceiver {
         //if (context.getResources().getBoolean(R.bool.pref_engineer_mode)) {
         //    return true;
         //}
-        if (netInfo.isConnected()) {
+        if (netInfo != null && netInfo.isConnected()) {//[25]++ fix possible NullPointerException
             WifiManager wifiMgr = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
             WifiInfo wifiInfo = wifiMgr.getConnectionInfo();
             if (wifiInfo != null) {

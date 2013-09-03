@@ -8,6 +8,10 @@ Thanks my college Amanda Hsu gifted me an icon!!
 For Quanta Computer Inc. Colleges use in QRDC ONLY.
 
 --
+0.3.3 (2013/09/03)
+● fix possible NullPointerException
+
+--
 0.3.2 (2013/08/15)
 ● add minimal height requirement for AdMob layout
 ● fix no auto login set but do the auto login

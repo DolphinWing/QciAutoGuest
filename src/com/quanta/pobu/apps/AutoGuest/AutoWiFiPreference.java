@@ -176,15 +176,17 @@ public class AutoWiFiPreference extends PreferenceActivity
 
         ////[18]++ add check Wi-Fi status
         mPrefConnectNow = findPreference(ID_CONNECT_NOW);
-        ConnectivityManager connMgr =
-                (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo wifi = connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        if (wifi.isAvailable() && AutoWiFiReceiver.isConnected(this, wifi) || DEBUG) {
-            mPrefConnectNow.setEnabled(true);
-            mPrefConnectNow.setSummary(R.string.connect_now_summary_enable);
-        } else {
-            mPrefConnectNow.setEnabled(false);
-            mPrefConnectNow.setSummary(R.string.connect_now_summary_disable);
+        if (mPrefConnectNow != null) {//[25]++ avoid NullPointerException
+            ConnectivityManager connMgr =
+                    (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo wifi = connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+            if (wifi.isAvailable() && AutoWiFiReceiver.isConnected(this, wifi) || DEBUG) {
+                mPrefConnectNow.setEnabled(true);
+                mPrefConnectNow.setSummary(R.string.connect_now_summary_enable);
+            } else {
+                mPrefConnectNow.setEnabled(false);
+                mPrefConnectNow.setSummary(R.string.connect_now_summary_disable);
+            }
         }
 
         //[19]++
